@@ -26,7 +26,7 @@
     //     dataType:'jsonp'
     // });
 
-    // window.onload=function(){
+    window.onload=function(){
     const url = "https://script.google.com/macros/s/AKfycbyC2HdYr6qcvDvMEkccFsMSmKlXsowHsu6YuEVslP5WPmS6-2Ls/exec";
 
     document.getElementById("btn").addEventListener("click", insert_value);
@@ -78,4 +78,4 @@
     }
 
 
-    // }
+    }

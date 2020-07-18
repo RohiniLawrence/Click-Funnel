@@ -68,9 +68,10 @@
                     Email: email})
             })
             // .then(res => res.status)
-             .then(res => {
-                console.log(res);  
-             })
+            .then(d=> d.json())
+            .then(d=> {
+                document.getElementById("app").textContent= d[0].status;
+                });
 
       
         

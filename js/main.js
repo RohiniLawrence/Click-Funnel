@@ -29,7 +29,7 @@
     // window.onload=function(){
     const url = "https://script.google.com/macros/s/AKfycbyC2HdYr6qcvDvMEkccFsMSmKlXsowHsu6YuEVslP5WPmS6-2Ls/exec";
 
-    document.getElementById("btn").addEventListener("click", get_value);
+    document.getElementById("btn").addEventListener("click", insert_value);
     function get_value(){
     fetch(url)
             .then(d=> d.json())

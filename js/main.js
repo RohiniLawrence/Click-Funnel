@@ -94,6 +94,7 @@
                 // If you don't know the name or want to use
                 // the webserver default set name = ''
                 link.setAttribute('download', name = "pdf");
+                link.setAttribute('target', '_blank');
                 link.href = "./PDF.pdf";
                 // document.body.appendChild(link);
                 link.click();

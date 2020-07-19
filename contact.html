@@ -59,7 +59,7 @@
         <!--================Banner Area =================-->
         <section class="banner_area">
             <div class="container">
-                <div class="banner_inner_text">
+                <div class="banner_inner_text" style="padding-bottom: 1rem; width: 10rem;">
                     <h2>Contact</h2>
                     <p>Get in touch</p>
                 </div>
@@ -68,21 +68,17 @@
         <!--================End Banner Area =================-->
         
         <!--================Get in Touch Area =================-->
-        <section class="get_in_touch_area p_100">
+        <section class="get_in_touch_area p_100" style="padding-top: 0rem;">
             <div class="container">
                 <div class="row get_touch_inner">
                     <div class="col-lg-6">
-                        <form class="contact_us_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate"style="margin-top:4rem;">
-                            <h2 >Get a free PDF and get started!</h2>
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
-                            
+                        <form class="contact_us_form" action="javascript:;" method="post" id="contactForm" novalidate="novalidate" style="margin-top: 4rem;">
+                            <h2 id="app">Get a free PDF and get started!</h2>
+                                <input type="text" class="form-control" id="fname" name="fname" placeholder="First Name">
+                                <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name">                        
                                 <input type="email" class="form-control" id="email" name="email" placeholder="Email">
-                            
-                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject*">
-                            
-                                <textarea class="form-control" name="message" id="message" rows="1" placeholder="Message"></textarea>
-                            
-                                <button type="submit" value="submit" class="btn submit_btn form-control">Send</button>
+                                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number">                            
+                                <button type="submit" value="submit" id="btn" class="btn submit_btn form-control">Send</button>
                            
                         </form>
                     </div>
@@ -179,7 +175,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                             <i class="fa fa-close"></i>
                         </button>
                         <h2>Thank you</h2>
-                        <p>Your message is successfully sent...</p>
+                        <p>Enjoy the pdf!</p>
                     </div>
                 </div>
             </div>
@@ -235,12 +231,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
         <script src="js/gmaps.min.js"></script>
         
+        <script src="js/main.js"></script>
         <!-- contact js -->
-        <script src="js/jquery.form.js"></script>
+         
+              <!-- <script src="js/jquery.form.js"></script>
         <script src="js/jquery.validate.min.js"></script>
-        <script src="js/contact.js"></script>
-        
-        <script src="js/circle-active.js"></script>
-        <script src="js/theme.js"></script>
+         <script src="js/contact.js"></script>
+         <script src="js/theme.js"></script> 
+          <script src="js/circle-active.js"></script>
+        -->
+      
     </body>
 </html>
